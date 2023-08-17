@@ -52,12 +52,12 @@ public class TestAnnotations {
 	@AfterTest
 	public void afterTest () 
 	{
-		System.out.println("after Test plan execute");
+		System.out.println("after Test plan ");
 	}
 	@AfterSuite
 	public void aftersuite () 
 	{
-		System.out.println("after suite execute");
+		System.out.println("after suite ");
 	}
 
 }
